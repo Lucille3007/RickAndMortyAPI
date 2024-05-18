@@ -1,0 +1,51 @@
+
+
+html, body {
+  height:100%;
+}
+
+html {
+  display:table;
+  width:100%;
+}
+
+body {
+  display:table-cell; 
+  text-align:center; 
+  background-color: #e7e0db;
+}
+
+.card {
+  display: inline-block;
+  border: 1px solid #555555;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: calc(20%);
+}
+
+#svgContainer {
+  padding-top: 75px;
+}
+
+#fetchBtn {
+  background-color: #02afc5; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  position: fixed;
+}
+
+#title {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: repeating-radial-gradient(circle closest-corner at 100px 100px, #7cf448, #02afc5 10%, #02afc5 20%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
